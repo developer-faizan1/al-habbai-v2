@@ -1,0 +1,1031 @@
+.careers__bg {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.1)),
+    url("../images/careers_bg.webp");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* =========================================
+   MANAGEMENT / LEADERSHIP SECTION
+========================================= */
+
+.management-section {
+  width: 100%;
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.management-container {
+  width: min(1200px, calc(100% - 80px));
+  margin: 0 auto;
+}
+/* =========================================
+   SECTION HEADING
+========================================= */
+.management-heading {
+  max-width: 650px;
+  margin-bottom: 45px;
+}
+
+.section-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--green-1);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.management-heading h2 {
+  margin: 0;
+  color: var(--black-1);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.management-heading h2 span {
+  color: var(--green-1);
+}
+
+.management-heading p {
+  max-width: 560px;
+  margin: 16px 0 0;
+  color: var(--black-3);
+  font-size: 16px;
+  line-height: 1.7;
+}
+/* =========================================
+   OWL CAROUSEL
+========================================= */
+.management-carousel {
+  position: relative;
+  width: 100%;
+}
+/* Remove Owl default outline */
+.management-carousel .owl-stage-outer {
+  padding: 10px 5px 25px;
+}
+
+.management-carousel .owl-item {
+  display: flex;
+  height: auto;
+}
+
+/* =========================================
+   MANAGEMENT CARD
+========================================= */
+
+.management-card {
+  position: relative;
+  width: 100%;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: center;
+  gap: 25px;
+  min-height: 210px;
+  margin: 5px 10px;
+  padding: 28px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid rgba(25, 100, 105, 0.1);
+  border-radius: 18px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* =========================================
+   TOP ACCENT
+========================================= */
+
+.management-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--green-1), var(--green-2));
+}
+
+/* =========================================
+   CARD HOVER
+========================================= */
+
+.management-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 35px rgba(25, 100, 105, 0.13);
+}
+
+/* =========================================
+   PROFILE IMAGE
+========================================= */
+.management-image {
+  width: 120px;
+  height: 120px;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--green-1), var(--green-2));
+  flex-shrink: 0;
+}
+
+.management-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--lightGreen-1);
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.management-content {
+  min-width: 0;
+  text-align: left;
+}
+
+.management-content h3 {
+  margin: 0;
+  color: var(--black-1);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.management-role {
+  display: block;
+  margin-top: 6px;
+  color: var(--green-1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.management-content p {
+  max-width: 390px;
+  margin: 13px 0 0;
+  color: var(--black-3);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+/* =========================================
+   OWL NAVIGATION
+========================================= */
+
+.management-carousel .owl-nav {
+  margin: 0;
+}
+
+/* Previous + Next buttons */
+
+.management-carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  transform: translateY(-50%);
+  border: none !important;
+  border-radius: 50% !important;
+  background: var(--green-1) !important;
+  color: #ffffff !important;
+  font-size: 25px !important;
+  line-height: 1 !important;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.management-carousel .owl-nav button:hover {
+  background: var(--green-2) !important;
+  color: var(--black-1) !important;
+  transform: translateY(-50%) scale(1.05);
+}
+
+/* Previous */
+
+.management-carousel .owl-prev {
+  left: -55px;
+}
+
+/* Next */
+
+.management-carousel .owl-next {
+  right: -55px;
+}
+
+/* Remove default focus */
+
+.management-carousel .owl-nav button:focus {
+  outline: none;
+}
+
+/* =========================================
+   OWL DOTS
+========================================= */
+
+.management-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+}
+
+.management-carousel .owl-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 50%;
+  background: #b8cbc7 !important;
+  transition:
+    width 0.3s ease,
+    background 0.3s ease;
+}
+
+.management-carousel .owl-dot.active {
+  width: 25px;
+  border-radius: 10px;
+  background: var(--green-1) !important;
+}
+
+.management-carousel .owl-dot:focus {
+  outline: none;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+  .management-container {
+    width: min(100% - 60px, 950px);
+  }
+
+  .management-carousel .owl-prev {
+    left: -20px;
+  }
+
+  .management-carousel .owl-next {
+    right: -20px;
+  }
+
+  .management-card {
+    grid-template-columns: 105px minmax(0, 1fr);
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .management-image {
+    width: 105px;
+    height: 105px;
+  }
+
+  .management-content h3 {
+    font-size: 19px;
+  }
+}
+
+/* =========================================
+   TABLET / SMALL LAPTOP
+========================================= */
+
+@media (max-width: 900px) {
+  .management-section {
+    padding: 75px 0;
+  }
+
+  .management-container {
+    width: calc(100% - 50px);
+  }
+
+  /* Hide side arrows */
+
+  .management-carousel .owl-nav {
+    display: none;
+  }
+
+  .management-carousel .owl-stage-outer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .management-card {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .management-section {
+    padding: 60px 0;
+  }
+
+  .management-container {
+    width: calc(100% - 30px);
+  }
+
+  /* ==============================
+     HEADING
+  ============================== */
+
+  .management-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-label {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+  .management-heading h2 {
+    font-size: 32px;
+    letter-spacing: -0.5px;
+  }
+
+  .management-heading p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ==============================
+     CAROUSEL
+  ============================== */
+
+  .management-carousel .owl-stage-outer {
+    padding: 8px 0 22px;
+  }
+
+  /* ==============================
+     CARD
+  ============================== */
+
+  .management-card {
+    grid-template-columns: 85px minmax(0, 1fr);
+    gap: 16px;
+    min-height: 165px;
+    margin: 5px 3px;
+    padding: 22px 18px;
+    border-radius: 15px;
+  }
+
+  /* ==============================
+     IMAGE
+  ============================== */
+
+  .management-image {
+    width: 85px;
+    height: 85px;
+    padding: 3px;
+  }
+
+  /* ==============================
+     CONTENT
+  ============================== */
+
+  .management-content h3 {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+
+  .management-role {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .management-content p {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  /* ==============================
+     DOTS
+  ============================== */
+
+  .management-carousel .owl-dots {
+    margin-top: 0;
+  }
+}
+
+/* =========================================
+   VERY SMALL DEVICES
+========================================= */
+
+@media (max-width: 380px) {
+  .management-section {
+    padding: 50px 0;
+  }
+
+  .management-container {
+    width: calc(100% - 20px);
+  }
+
+  .management-card {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 13px;
+    min-height: 145px;
+    padding: 18px 14px;
+    border-radius: 13px;
+  }
+
+  .management-image {
+    width: 72px;
+    height: 72px;
+  }
+
+  .management-content h3 {
+    font-size: 15px;
+  }
+
+  .management-role {
+    font-size: 11px;
+  }
+
+  .management-content p {
+    margin-top: 6px;
+    font-size: 11px;
+    line-height: 1.45;
+  }
+}
+/* =========================================
+   RESOURCES SECTION
+========================================= */
+
+.resources-section {
+  width: 100%;
+  padding: 70px 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+.resources-container {
+  width: min(1200px, calc(100% - 80px));
+  margin: 0 auto;
+}
+
+/* =========================================
+   SECTION HEADING
+========================================= */
+
+.resources-heading {
+  margin-bottom: 45px;
+}
+
+.resources-heading h2 {
+  margin: 0;
+  color: #202525;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+.resources-heading span {
+  display: block;
+  width: 58px;
+  height: 5px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background: #16a085;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.resources-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 34px;
+  box-shadow:
+    0 15px 45px rgba(20, 80, 70, 0.08),
+    0 3px 12px rgba(20, 80, 70, 0.04);
+}
+
+/* =========================================
+   CARD HEADER
+========================================= */
+
+.resources-card-header {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 28px;
+}
+
+.header-icon {
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #119b88;
+  background: #e6f7f3;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.resources-card-header h3 {
+  margin: 0;
+  color: #0d4d48;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* =========================================
+   TABLE
+========================================= */
+
+.manpower-table {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #dce9e6;
+  border-radius: 14px;
+}
+
+/* =========================================
+   TABLE ROW
+========================================= */
+
+.table-row {
+  display: grid;
+  grid-template-columns: 23% 54% 23%;
+  min-height: 59px;
+  border-bottom: 1px solid #dce9e6;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.table-row:not(.table-header):not(.total-row):hover {
+  background: #f0faf7;
+}
+
+/* =========================================
+   TABLE CELL
+========================================= */
+
+.table-cell {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #252a29;
+  border-right: 1px solid #dce9e6;
+}
+
+.table-cell:last-child {
+  border-right: none;
+}
+
+
+/* =========================================
+   TABLE HEADER
+========================================= */
+
+.table-header {
+  min-height: 72px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #12a98f, #08766c);
+  border-bottom: none;
+}
+
+.table-header .table-cell {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.table_title{
+  font-size: 1.6rem;
+  font-family: Poppins;
+}
+
+.sr-header {
+  justify-content: center;
+  gap: 12px;
+}
+
+.labor-header {
+  justify-content: center;
+  gap: 14px;
+}
+
+.total-header {
+  justify-content: center;
+  gap: 14px;
+}
+
+.hash-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #098b79;
+  font-weight: 800;
+}
+
+.header-symbol {
+  font-size: 24px;
+}
+
+/* =========================================
+   SERIAL NUMBER
+========================================= */
+
+.serial {
+  justify-content: center;
+  color: #087c6c;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* =========================================
+   LABOR
+========================================= */
+
+.labor {
+  gap: 18px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.labor-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e6f7f3;
+  font-size: 18px;
+}
+
+/* =========================================
+   NUMBER
+========================================= */
+
+.number {
+  justify-content: center;
+}
+
+.number span {
+  min-width: 82px;
+  padding: 7px 14px;
+  text-align: center;
+  color: #087c6c;
+  background: #e7f7f4;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* =========================================
+   TOTAL ROW
+========================================= */
+
+.total-row {
+  min-height: 64px;
+  background: linear-gradient(135deg, #12a98f, #08766c);
+  border-bottom: none;
+}
+
+.total-row .table-cell {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.total-label {
+  justify-content: center;
+  gap: 12px;
+  font-size: 18px;
+}
+
+.total-label span {
+  font-size: 22px;
+}
+
+.total-number {
+  justify-content: center;
+  font-size: 21px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+  .resources-container {
+    width: min(100% - 40px, 700px);
+  }
+
+  .resources-card {
+    padding: 24px;
+  }
+
+  .table-row {
+    grid-template-columns: 20% 55% 25%;
+  }
+
+  .labor {
+    gap: 12px;
+  }
+
+  .labor-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .table-cell {
+    padding: 8px 12px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+/* =========================================
+   SMALL DEVICES — BELOW 600px
+========================================= */
+
+@media (max-width: 600px) {
+  .resources-section {
+    padding: 40px 0;
+  }
+
+  .resources-container {
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+
+  /* ==============================
+     SECTION TITLE
+  ============================== */
+
+  .resources-heading {
+    margin-bottom: 24px;
+  }
+
+  .resources-heading h2 {
+    font-size: 30px;
+    letter-spacing: -0.8px;
+  }
+
+  .resources-heading span {
+    width: 45px;
+    height: 4px;
+    margin-top: 10px;
+  }
+
+  /* ==============================
+     MAIN CARD
+  ============================== */
+
+  .resources-card {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  /* ==============================
+     CARD HEADER
+  ============================== */
+
+  .resources-card-header {
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .header-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 11px;
+    font-size: 18px;
+  }
+
+  .resources-card-header h3 {
+    font-size: 19px;
+  }
+
+  /* ==============================
+     TABLE
+  ============================== */
+
+  .manpower-table {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  /* ==============================
+     ROW
+  ============================== */
+
+  .table-row {
+    width: 100%;
+    min-width: 0;
+    grid-template-columns: 55px minmax(0, 1fr) 78px;
+    min-height: 54px;
+  }
+
+  /* ==============================
+     CELL
+  ============================== */
+
+  .table-cell {
+    padding: 7px 8px;
+    font-size: 13px;
+  }
+
+  /* ==============================
+     TABLE HEADER
+  ============================== */
+
+  .table-header {
+    min-height: 52px;
+  }
+
+  .table-header .table-cell {
+    font-size: 12px;
+    padding: 7px 5px;
+  }
+
+  .sr-header {
+    gap: 5px;
+  }
+
+  .labor-header {
+    justify-content: flex-start;
+    gap: 5px;
+  }
+
+  .total-header {
+    gap: 4px;
+  }
+
+  .hash-icon {
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+
+  .header-symbol {
+    display: none;
+  }
+
+  /* ==============================
+     SERIAL
+  ============================== */
+
+  .serial {
+    font-size: 13px;
+  }
+
+  /* ==============================
+     LABOR
+  ============================== */
+
+  .labor {
+    gap: 8px;
+    min-width: 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .labor span:last-child {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .labor-icon {
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    font-size: 14px;
+  }
+
+  /* ==============================
+     NUMBER
+  ============================== */
+
+  .number {
+    justify-content: center;
+  }
+
+  .number span {
+    min-width: 0;
+    width: 58px;
+    padding: 5px 5px;
+    border-radius: 7px;
+    font-size: 12px;
+  }
+
+  /* ==============================
+     TOTAL
+  ============================== */
+
+  .total-row {
+    min-height: 55px;
+  }
+
+  .total-label {
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .total-label span {
+    font-size: 16px;
+  }
+
+  .total-number {
+    font-size: 16px;
+  }
+}
+
+/* =========================================
+   VERY SMALL DEVICES
+========================================= */
+
+@media (max-width: 380px) {
+  .resources-container {
+    width: calc(100% - 16px);
+  }
+
+  .resources-card {
+    padding: 10px;
+  }
+
+  .resources-card-header h3 {
+    font-size: 17px;
+  }
+
+  .header-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .table-row {
+    grid-template-columns: 42px minmax(0, 1fr) 68px;
+  }
+
+  .table-cell {
+    padding: 6px 5px;
+  }
+
+  .labor {
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .labor-icon {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+  }
+
+  .number span {
+    width: 52px;
+    padding: 4px 3px;
+    font-size: 11px;
+  }
+
+  .table-header .table-cell {
+    font-size: 11px;
+  }
+
+  .total-label {
+    font-size: 13px;
+  }
+
+  .total-number {
+    font-size: 14px;
+  }
+}

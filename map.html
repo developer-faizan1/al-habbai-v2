@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AL Habbai Contracting | Project Locations</title>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="./assets/css/map.css" />
+  </head>
+
+  <body>
+    <div class="map-page">
+      <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+      <header class="map-header">
+        <a class="map-back-btn" href="./projects.html">
+          <span>←</span>
+          <span>Back to Projects</span>
+        </a>
+
+        <div class="header-actions">
+          <button id="satelliteBtn" class="map-btn primary" type="button">
+            <span>◈</span>
+            Satellite
+          </button>
+        </div>
+      </header>
+
+      <!-- ================ MAP ================ -->
+      <main class="map-wrapper">
+        <div id="map"></div>
+        <!-- MAP LEGEND -->
+        <div class="map-legend">
+          <span>
+            <i class="legend-project"></i>
+            Completed
+          </span>
+
+          <span>
+            <i class="legend-running"></i>
+            Running
+          </span>
+        </div>
+        <!-- MAP HELP -->
+        <div class="map-help">
+          <span>＋</span>
+          <span>Zoom</span>
+          <b>•</b>
+          <span>Drag</span>
+          <b>•</b>
+          <span>Click marker</span>
+        </div>
+      </main>
+
+      <!-- ================  DETAILS BACKDROP ================ -->
+      <div id="detailsBackdrop" class="details-backdrop"></div>
+
+      <!-- ================   DETAILS PANEL ================ -->
+      <aside id="detailsPanel" class="details-panel" aria-hidden="true">
+        <button
+          id="detailsClose"
+          class="details-close"
+          type="button"
+          aria-label="Close"
+        >
+          ×
+        </button>
+
+        <div class="details-image-wrap">
+          <img id="detailsImage" src="" alt="" />
+
+          <div id="detailsNumber" class="details-number">P-000</div>
+        </div>
+
+        <div class="details-content">
+          <div class="details-tags">
+            <span id="detailsStatus"> Status </span>
+
+            <span id="detailsType"> Type </span>
+          </div>
+
+          <span class="details-label"> PROJECT </span>
+
+          <h2 id="detailsTitle">Project title</h2>
+
+          <p id="detailsDescription" class="details-description"></p>
+
+          <div class="details-grid">
+            <div>
+              <span>PROJECT VALUE</span>
+              <strong id="detailsValue">—</strong>
+            </div>
+
+            <div>
+              <span>LOCATION</span>
+              <strong id="detailsLocation">—</strong>
+            </div>
+
+            <div>
+              <span>CLIENT</span>
+              <strong id="detailsClient">—</strong>
+            </div>
+
+            <div>
+              <span>CONSULTANT</span>
+              <strong id="detailsConsultant">—</strong>
+            </div>
+
+            <div>
+              <span>START DATE</span>
+              <strong id="detailsStart">—</strong>
+            </div>
+
+            <div>
+              <span>COMPLETION</span>
+              <strong id="detailsCompletion">—</strong>
+            </div>
+
+            <div class="full">
+              <span>PLOT</span>
+              <strong id="detailsPlot">—</strong>
+            </div>
+
+            <div class="full">
+              <span>ADDRESS</span>
+              <strong id="detailsAddress">—</strong>
+            </div>
+          </div>
+
+          <div class="details-actions">
+            <a
+              id="googleMapsBtn"
+              class="details-btn google"
+              href="#"
+              target="_blank"
+              rel="noopener"
+            >
+              ↗ Open in Google Maps
+            </a>
+
+            <button
+              id="focusMapBtn"
+              class="details-btn secondary"
+              type="button"
+            >
+              ⌖ Focus on Map
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- TOAST -->
+      <div id="toast" class="toast"></div>
+    </div>
+
+    <!-- Leaflet JS -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Your JS -->
+
+    <script src="./assets/js/map.js"></script>
+  </body>
+</html>
