@@ -50,7 +50,7 @@
   display: inline-block;
   padding-left: 42px;
   margin-bottom: 18px;
-  color: #145d62;
+  color: 	var(--green-1);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -64,7 +64,7 @@
   top: 50%;
   width: 28px;
   height: 2px;
-  background: #145d62;
+  background: var(--green-1);
   transform: translateY(-50%);
 }
 
@@ -82,7 +82,7 @@
 }
 
 .about-title span {
-  color: #145d62;
+  color: var(--green-1);
 }
 
 /* =========================================================
@@ -94,7 +94,7 @@
   width: 62px;
   height: 3px;
   margin: 28px 0 30px;
-  background: #145d62;
+  background: var(--green-1);
 }
 
 .about-line::after {
@@ -148,7 +148,7 @@
   left: 20px;
   width: 100%;
   height: 100%;
-  background: #145d62;
+  background: var(--green-1);
   clip-path: polygon(22% 0, 100% 0, 100% 100%, 22% 100%, 0 50%);
   z-index: -2;
 }
@@ -520,7 +520,7 @@
 
 .ceo-quote p {
   margin: 0;
-  color: #315d42;
+  color: var(--green-1);
   font-size: 15px;
   line-height: 1.5;
   font-weight: 500;
@@ -596,7 +596,7 @@
 
 .ceo-name p {
   margin: 4px 0 0;
-  color: #3c7b50;
+  color: var(--green-1);
   font-size: 13px;
 }
 

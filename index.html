@@ -24,23 +24,50 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
 
     <script src="./assets/js/main.js" defer></script>
-    <script src="./assets/js/video.js" defer></script>
     <script src="./assets/js/counter.js" defer></script>
+
+    <style>
+      /* FULL-SCREEN HERO */
+      .hero-video {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        height: 100svh;
+        min-height: 450px;
+        overflow: hidden;
+        isolation: isolate;
+        background: #18201f;
+      }
+
+      /* VIMEO VIDEO */
+      .hero-iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 177.78vh;
+        height: 100vh;
+        min-width: 100%;
+        min-height: 56.25vw;
+        transform: translate(-50%, -50%);
+        border: 0;
+        z-index: 1;
+        pointer-events: none;
+      }
+    </style>
   </head>
 
   <body>
     <!-- Nav -->
-    <header class="header">
-      <div class="hero-video-wrapper">
-        <video
-          id="video1"
-          class="hero-video active"
-          muted
-          autoplay
-          playsinline
-        ></video>
-
-        <video id="video2" class="hero-video" muted playsinline></video>
+    <header>
+      <div class="hero-video" id="heroVideo">
+        <!-- Your Vimeo video -->
+        <iframe
+          class="hero-iframe"
+          src="https://player.vimeo.com/video/1237874422?background=1&autoplay=1&muted=1&loop=1&autopause=0"
+          title="Al Habbai Promo"
+          allow="autoplay; fullscreen; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
       </div>
 
       <!-- Navigation -->
@@ -106,9 +133,241 @@
     </header>
     <!-- ---x--- Nav End ---x--- -->
 
+    <!-- About -->
+    <section class="about__wrapper_container">
+      <div class="container">
+        <div class="about__wrapper">
+          <!-- Left Image -->
+          <div class="about__image__wrapper" data-aos="fade-up">
+            <img src="./assets/images/about.webp" alt="About Al Habbai" />
+            <div class="about__experience">
+              <h2>33+</h2>
+              <p>Years of<br />Excellence</p>
+              <span></span>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="about__content__wrapper" data-aos="fade-up">
+            <span class="about__content__subtitle">ABOUT AL HABBAI</span>
+
+            <h2>
+              Building Trust,<br />
+              Delivering Excellence
+            </h2>
+
+            <p>
+              Al Habbai Contracting, established in Dubai in 1993 by the Al
+              Habbai Family, is a leading contractor known for integrity,
+              teamwork, quality, and commitment. Led by CEO Mr. Ali Al Habbai,
+              the company has delivered prestigious projects across Downtown
+              Dubai, Business Bay, Media City, Palm Jumeirah, and other
+              prominent destinations.
+            </p>
+
+            <ul class="about__list__items">
+              <li>ISO 9001:2015 Certified</li>
+              <li>Unlimited Storey Building License</li>
+              <li>Highly Skilled & Experienced Team</li>
+              <li>Commitment to Quality & Safety</li>
+            </ul>
+
+            <a href="./about.html" class="about__btn">
+              Learn More About Us →
+            </a>
+          </div>
+
+          <!--  Right Cards -->
+          <div class="about__cards__wrapper" data-aos="fade-up">
+            <div class="about__card">
+              <div class="about__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3>Our Vision</h3>
+              <p>To be the most trusted construction company in the region.</p>
+            </div>
+
+            <div class="about__card">
+              <div class="about__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" />
+                </svg>
+              </div>
+              <h3>Our Mission</h3>
+              <p>
+                Deliver innovative and sustainable solutions that exceed client
+                expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---x--- About End ---x--- -->
+
+    <!-- Our Services -->
+    <section class="services-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="services-header">
+          <div class="section-label">
+            <span data-aos="fade-down">WHAT WE DO</span>
+            <i data-aos="fade-down"></i>
+          </div>
+
+          <h2 class="page__title__text" data-aos="fade-down">Our Services</h2>
+
+          <p data-aos="fade-down">
+            End-to-end construction and infrastructure solutions built on
+            quality, safety, and trust.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+          <!-- Service 01 -->
+          <article class="service-card service-card-1" data-aos="fade-up">
+            <span class="service-number">01</span>
+
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 21V8.5L12 3L20 8.5V21" />
+                <path d="M8 21V12H16V21" />
+                <path d="M9 8H10" />
+                <path d="M14 8H15" />
+              </svg>
+            </div>
+
+            <div class="service-content">
+              <h3>Civil Construction</h3>
+
+              <div class="service-line"></div>
+
+              <p>
+                Building durable residential, commercial, and industrial
+                structures with quality craftsmanship, modern engineering, and
+                strict adherence to safety standards.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 02 -->
+          <article class="service-card service-card-2" data-aos="fade-up">
+            <span class="service-number">02</span>
+
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="8" y="3" width="8" height="18" rx="2" />
+                <path d="M5 8H8" />
+                <path d="M16 8H19" />
+                <path d="M5 16H8" />
+                <path d="M16 16H19" />
+                <path d="M12 7V17" />
+                <path d="M9 12H15" />
+              </svg>
+            </div>
+
+            <div class="service-content">
+              <h3>MEP Services</h3>
+
+              <div class="service-line"></div>
+
+              <p>
+                Providing reliable mechanical, electrical, and plumbing
+                solutions that ensure efficient building performance, comfort,
+                energy savings, and long-term reliability.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 03 -->
+          <article class="service-card service-card-3" data-aos="fade-up">
+            <span class="service-number">03</span>
+
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M3 17H17" />
+                <path d="M5 17V13H14L18 9L21 12V17" />
+                <circle cx="7" cy="18" r="2" />
+                <circle cx="17" cy="18" r="2" />
+                <path d="M18 9L20 5L22 7L20 11" />
+              </svg>
+            </div>
+
+            <div class="service-content">
+              <h3>Infrastructure</h3>
+
+              <div class="service-line"></div>
+
+              <p>
+                Developing roads, utilities, drainage systems, and public
+                infrastructure that support sustainable communities, economic
+                growth, and future urban development.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 04 -->
+          <article class="service-card service-card-4" data-aos="fade-up">
+            <span class="service-number">04</span>
+
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="6" y="4" width="12" height="17" rx="2" />
+                <path d="M9 4V2H15V4" />
+                <path d="M9 16V12" />
+                <path d="M12 16V9" />
+                <path d="M15 16V13" />
+              </svg>
+            </div>
+
+            <div class="service-content">
+              <h3>Project Management</h3>
+
+              <div class="service-line"></div>
+
+              <p>
+                Planning, coordinating, and supervising every project phase to
+                ensure timely completion, budget control, quality assurance, and
+                client satisfaction.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ---x--- Our Services End ---x--- -->
+
     <!-- Team Members -->
-    <section id="careers" class="management-section">
-      <div class="management-container">
+    <section id="careers" class="member-space">
+      <div class="container">
         <div class="management-heading">
           <span class="section-label" data-aos="fade-up"> Our Leadership </span>
 
@@ -275,244 +534,6 @@
       </div>
     </section>
     <!-- ---x--- Counter End ---x--- -->
-
-    <!-- Our Services -->
-    <section class="services-section">
-      <div class="container">
-        <!-- Section Header -->
-        <div class="services-header">
-          <div class="section-label">
-            <span data-aos="fade-down">WHAT WE DO</span>
-            <i data-aos="fade-down"></i>
-          </div>
-
-          <h2 class="page__title__text" data-aos="fade-down">Our Services</h2>
-
-          <p data-aos="fade-down">
-            End-to-end construction and infrastructure solutions built on
-            quality, safety, and trust.
-          </p>
-        </div>
-
-        <!-- Services Grid -->
-        <div class="services-grid">
-          <!-- Service 01 -->
-          <article class="service-card service-card-1" data-aos="fade-up">
-            <span class="service-number">01</span>
-
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M4 21V8.5L12 3L20 8.5V21" />
-                <path d="M8 21V12H16V21" />
-                <path d="M9 8H10" />
-                <path d="M14 8H15" />
-              </svg>
-            </div>
-
-            <div class="service-content">
-              <h3>Civil Construction</h3>
-
-              <div class="service-line"></div>
-
-              <p>
-                Building durable residential, commercial, and industrial
-                structures with quality craftsmanship, modern engineering, and
-                strict adherence to safety standards.
-              </p>
-            </div>
-          </article>
-
-          <!-- Service 02 -->
-          <article class="service-card service-card-2" data-aos="fade-up">
-            <span class="service-number">02</span>
-
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <rect x="8" y="3" width="8" height="18" rx="2" />
-                <path d="M5 8H8" />
-                <path d="M16 8H19" />
-                <path d="M5 16H8" />
-                <path d="M16 16H19" />
-                <path d="M12 7V17" />
-                <path d="M9 12H15" />
-              </svg>
-            </div>
-
-            <div class="service-content">
-              <h3>MEP Services</h3>
-
-              <div class="service-line"></div>
-
-              <p>
-                Providing reliable mechanical, electrical, and plumbing
-                solutions that ensure efficient building performance, comfort,
-                energy savings, and long-term reliability.
-              </p>
-            </div>
-          </article>
-
-          <!-- Service 03 -->
-          <article class="service-card service-card-3" data-aos="fade-up">
-            <span class="service-number">03</span>
-
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M3 17H17" />
-                <path d="M5 17V13H14L18 9L21 12V17" />
-                <circle cx="7" cy="18" r="2" />
-                <circle cx="17" cy="18" r="2" />
-                <path d="M18 9L20 5L22 7L20 11" />
-              </svg>
-            </div>
-
-            <div class="service-content">
-              <h3>Infrastructure</h3>
-
-              <div class="service-line"></div>
-
-              <p>
-                Developing roads, utilities, drainage systems, and public
-                infrastructure that support sustainable communities, economic
-                growth, and future urban development.
-              </p>
-            </div>
-          </article>
-
-          <!-- Service 04 -->
-          <article class="service-card service-card-4" data-aos="fade-up">
-            <span class="service-number">04</span>
-
-            <div class="service-icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <rect x="6" y="4" width="12" height="17" rx="2" />
-                <path d="M9 4V2H15V4" />
-                <path d="M9 16V12" />
-                <path d="M12 16V9" />
-                <path d="M15 16V13" />
-              </svg>
-            </div>
-
-            <div class="service-content">
-              <h3>Project Management</h3>
-
-              <div class="service-line"></div>
-
-              <p>
-                Planning, coordinating, and supervising every project phase to
-                ensure timely completion, budget control, quality assurance, and
-                client satisfaction.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-    <!-- ---x--- Our Services End ---x--- -->
-
-    <!-- About -->
-    <section class="about__wrapper_container">
-      <div class="container">
-        <h2
-          class="page__title__text page__title__text__space"
-          data-aos="fade-down"
-        >
-          About Al Habbai
-        </h2>
-        <div class="about__wrapper">
-          <!-- Left Image -->
-          <div class="about__image__wrapper" data-aos="fade-up">
-            <img src="./assets/images/about.webp" alt="About Al Habbai" />
-            <div class="about__experience">
-              <h2>33+</h2>
-              <p>Years of<br />Excellence</p>
-              <span></span>
-            </div>
-          </div>
-
-          <!-- Content -->
-          <div class="about__content__wrapper" data-aos="fade-up">
-            <span class="about__content__subtitle">ABOUT AL HABBAI</span>
-
-            <h2>
-              Building Trust,<br />
-              Delivering Excellence
-            </h2>
-
-            <p>
-              Al Habbai Contracting, established in Dubai in 1993 by the Al
-              Habbai Family, is a leading contractor known for integrity,
-              teamwork, quality, and commitment. Led by CEO Mr. Ali Al Habbai,
-              the company has delivered prestigious projects across Downtown
-              Dubai, Business Bay, Media City, Palm Jumeirah, and other
-              prominent destinations.
-            </p>
-
-            <ul class="about__list__items">
-              <li>ISO 9001:2015 Certified</li>
-              <li>Unlimited Storey Building License</li>
-              <li>Highly Skilled & Experienced Team</li>
-              <li>Commitment to Quality & Safety</li>
-            </ul>
-
-            <a href="./about.html" class="about__btn">
-              Learn More About Us →
-            </a>
-          </div>
-
-          <!--  Right Cards -->
-          <div class="about__cards__wrapper" data-aos="fade-up">
-            <div class="about__card">
-              <div class="about__icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-              </div>
-              <h3>Our Vision</h3>
-              <p>To be the most trusted construction company in the region.</p>
-            </div>
-
-            <div class="about__card">
-              <div class="about__icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <circle cx="12" cy="12" r="6" />
-                  <circle cx="12" cy="12" r="2" />
-                </svg>
-              </div>
-              <h3>Our Mission</h3>
-              <p>
-                Deliver innovative and sustainable solutions that exceed client
-                expectations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ---x--- About End ---x--- -->
 
     <!-- Why Choose Us -->
     <section class="why-section">
@@ -807,10 +828,9 @@
     </button>
 
     <!-- Footer Section -->
-   <footer>
+    <footer>
       <div class="container">
         <div class="footer__wrapper" data-aos="fade-up">
-          
           <div class="footer__col2">
             <h3 class="footer__text__title">Quick Links</h3>
             <ol class="footer__text">

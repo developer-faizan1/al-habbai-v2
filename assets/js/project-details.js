@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const lightboxNext = document.getElementById("lightboxNext");
   // Right project information
   const titleElement = document.getElementById("projectTitle");
-  const breadcrumbElement = document.getElementById("breadcrumbProject");
+
   const statusElement = document.getElementById("projectStatus");
   const statusTextElement = document.getElementById("projectStatusText");
   const locationElement = document.getElementById("projectLocation");
@@ -107,12 +107,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.title = `${project.title || "Project Details"} | Projects`;
     // Project title
     setText("projectTitle", project.title, "Untitled Project");
-    // Breadcrumb
-    setText(
-      "breadcrumbProject",
-      getFirstValue(project.projectNumber, project.projectCode, project.title),
-      "Project",
-    );
+  
+
     // Project status
     const status = String(
       getFirstValue(project.status, "Not specified"),
@@ -151,12 +147,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       locationElement.textContent = location || "Location not specified";
     }
 
-    // Project description
-    setText(
-      "projectDescription",
-      project.projectDescription,
-      "Project description will be available soon.",
-    );
     // Project information cards
     setText("projectValue", project.projectValue);
     setText("projectClient", project.client);

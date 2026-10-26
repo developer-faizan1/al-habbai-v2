@@ -220,9 +220,7 @@ activityCards.forEach((card) => {
     });
 
     card.classList.add("active");
-
     const radio = card.querySelector('input[type="radio"]');
-
     radio.checked = true;
   });
 });
