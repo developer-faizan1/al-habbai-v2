@@ -28,11 +28,10 @@
     "projectNumber": "P-208",
     "slug": "P-208 (UG+GF+2P+8 Floors) RESIDENTIAL BUILDING",
     "title": "Residential Building",
-    "image": "assets/images/img_gallery/p208v1.webp",
+    "image": "assets/images/img_gallery/208v1.jpg",
     "images": [
-      "assets/images/img_gallery/p208v1.webp",
-      "assets/images/img_gallery/p208v2.webp",
-      "assets/images/img_gallery/p208v3.webp"
+      "assets/images/img_gallery/208v1.jpg",
+      "assets/images/img_gallery/208v2.jpg"
     ],
     "projectValue": "AED 130,000,000",
     "client": "M/S. Al Anwar Investment LLC",
@@ -61,10 +60,10 @@
     "projectNumber": "P-211",
     "slug": "P-211 (G+2P+14F+R) RESIDENTIAL BUILDING",
     "title": "Residential Building",
-    "image": "assets/images/img_gallery/p211v1.webp",
+    "image": "assets/images/img_gallery/211v1.jpg",
     "images": [
-      "assets/images/img_gallery/p211v1.webp",
-      "assets/images/img_gallery/p211v2.webp"
+      "assets/images/img_gallery/211v1.jpg",
+      "assets/images/img_gallery/211v2.jpg"
     ],
     "projectValue": "AED 113,000,000",
     "client": "M/S Ahmed Al Ansari Real Estate Development L.L.C",
@@ -93,8 +92,7 @@
     "projectNumber": "P-212",
     "slug": "P-212 (G+2P+7F+R) Hotel Building",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/p212v1.webp",
-    "images": ["assets/images/img_gallery/p212v1.webp"],
+    "image": "assets/images/img_gallery/212.jpg",
     "projectValue": "AED 82,000,000",
     "client": "M/S. Central One Properties LLC",
     "consultant": "M/s RIMAL Engineering Consultant",
@@ -150,8 +148,7 @@
     "projectNumber": "P-210",
     "slug": "P-210 (1B+G+1P+9F+R) Residential & Commercial Building",
     "title": "Residential & Commercial Building",
-    "image": "assets/images/img_gallery/p210v1.webp",
-    "images": ["assets/images/img_gallery/p210v1.webp"],
+    "image": "assets/images/img_gallery/210.jpg",
     "projectValue": "AED 75,100,000",
     "client": "Mr. AbdulRahman Mohd Taher Mohd Wali & Mr. Abdul Halim AbdulRahim Abdulla Muhawid",
     "consultant": "M/s Al Ajmi Engineering Consultant",
@@ -180,11 +177,7 @@
     "projectNumber": "P-204",
     "slug": "P-204 (G+7+R) RESIDENTIAL BUILDING",
     "title": "Residential Building",
-    "image": "assets/images/projects/p204.jpg",
-    "images": [
-      "assets/images/img_gallery/204v1.webp",
-      "assets/images/img_gallery/204v2.webp"
-    ],
+    "image": "assets/images/img_gallery/204.jpg",
     "projectValue": "AED 48,100,000",
     "client": "M/S. Mohmad Rafi Mohd Saeed LLC",
     "consultant": "M/S. Erga Engineering Consultant",
@@ -210,7 +203,7 @@
     "image": "assets/images/img_gallery/209v1.jpg",
     "images": [
       "assets/images/img_gallery/209v1.jpg",
-      "assets/images/img_gallery/p209v2.webp"
+      "assets/images/img_gallery/209v2.jpg"
     ],
     "projectValue": "AED 33,000,000",
     "client": "Mr. Ahmed Mohammad Al Habbai",
@@ -238,7 +231,7 @@
     "id": 214,
     "projectNumber": "P-214",
     "slug": "P-214 (G+1P+6F+R) RESIDENTIAL BUILDING",
-    "title": "(G+1P+6F+R) Residential Building",
+    "title": "Residential Building",
     "projectValue": "AED 39,000,000",
     "client": "Mr. Ali Ahmed Mohd Al Habbai",
     "consultant": "M/S. Style Engineering Consultant",
@@ -303,10 +296,9 @@
     "projectNumber": "P-136",
     "slug": "P-136 (2B+G+3P+16+R) HOTEL BUILDING",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/136v1.webp",
+    "image": "assets/images/img_gallery/136.jpg",
     "images": [
-      "assets/images/img_gallery/136v1.webp",
-      "assets/images/img_gallery/136v2.webp",
+      "assets/images/img_gallery/136.jpg",
       "assets/images/intr_img/136iv1.webp",
       "assets/images/intr_img/136iv2.webp",
       "assets/images/intr_img/136iv3.webp"
@@ -343,6 +335,7 @@
     "images": [
       "assets/images/img_gallery/140v1.jpg",
       "assets/images/img_gallery/140v2.jpg",
+      "assets/images/img_gallery/140v3.jpg",
       "assets/images/intr_img/140iv1.webp",
       "assets/images/intr_img/140iv2.webp",
       "assets/images/intr_img/140iv3.webp",
@@ -376,10 +369,9 @@
     "projectNumber": "P-147",
     "slug": "P-147 (B+G+8+R+U+R) HOTEL BUILDING",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/147v1.webp",
+    "image": "assets/images/img_gallery/147v1.jpg",
     "images": [
-      "assets/images/img_gallery/147v1.webp",
-      "assets/images/img_gallery/147v2.webp",
+      "assets/images/img_gallery/147v1.jpg",
       "assets/images/intr_img/147iv1.webp",
       "assets/images/intr_img/147iv2.webp",
       "assets/images/intr_img/147iv3.webp"
@@ -484,7 +476,7 @@
     "title": "Hotel Tower",
     "image": "assets/images/img_gallery/102.jpg",
     "images": [
-      "assets/images/img_gallery/102v1.webp",
+      "assets/images/img_gallery/102.jpg",
       "assets/images/intr_img/102iv1.jpg",
       "assets/images/img_gallery/102.jpg",
       "assets/images/intr_img/102iv2.jpg",
@@ -518,10 +510,10 @@
     "projectNumber": "P-154",
     "slug": "P-154 (3B+G+6) STORIES HOTEL BUILDING",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/154v2.webp",
+    "image": "assets/images/img_gallery/154v1.jpg",
     "images": [
-      "assets/images/img_gallery/154v2.webp",
-      "assets/images/img_gallery/154v1.webp",
+      "assets/images/img_gallery/154v1.jpg",
+      "assets/images/img_gallery/154v2.jpg",
       "assets/images/intr_img/154iv1.webp",
       "assets/images/intr_img/154iv2.webp"
     ],
@@ -618,9 +610,9 @@
     "projectNumber": "P-142",
     "slug": "P-142-PROPOSED (B+G+22 Floors + R) HOTEL BUILDING",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/142v2.webp",
+    "image": "assets/images/img_gallery/142.jpg",
     "images": [
-      "assets/images/img_gallery/142v2.webp",
+      "assets/images/img_gallery/142.jpg",
       "assets/images/intr_img/142iv1.webp",
       "assets/images/intr_img/142iv2.webp",
       "assets/images/intr_img/142iv3.webp"
@@ -688,7 +680,7 @@
     "projectNumber": "P-155",
     "slug": "P-155 (2B+G+9F) STORIES SOHO APARTMENT",
     "title": "Soho Apartment",
-    "image": "assets/images/img_gallery/155v1.webp",
+    "image": "assets/images/img_gallery/155.jpg",
     "projectValue": "AED 62,000,000",
     "client": "M/s. NYC Holding Limited",
     "consultant": "M/s Naga Engineering Consultant",
@@ -716,10 +708,9 @@
     "projectNumber": "P-153",
     "slug": "P-153 (2B+G+5 Stories) STORIES HOTEL BUILDING",
     "title": "Hotel Building",
-    "image": "assets/images/img_gallery/153v1.webp",
+    "image": "assets/images/img_gallery/153.jpg",
     "images": [
-      "assets/images/img_gallery/153v1.webp",
-      "assets/images/img_gallery/153v2.webp",
+      "assets/images/img_gallery/153.jpg",
       "assets/images/intr_img/153iv1.webp",
       "assets/images/intr_img/153iv2.webp",
       "assets/images/intr_img/153iv3.webp",
@@ -815,9 +806,9 @@
     "projectNumber": "P-146",
     "slug": "P-146 (B+G+1P+16+R) HOTEL TOWER",
     "title": "Hotel Tower",
-    "image": "assets/images/img_gallery/146.jfif",
+    "image": "assets/images/img_gallery/146.jpg",
     "images": [
-      "assets/images/img_gallery/146.jfif",
+      "assets/images/img_gallery/146.jpg",
       "assets/images/intr_img/146iv1.webp",
       "assets/images/intr_img/146iv2.webp",
       "assets/images/intr_img/146iv3.webp",
@@ -1336,10 +1327,10 @@
     "projectNumber": "P-151",
     "slug": "P-151 (3B+G+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/img_gallery/151v1.webp",
+    "image": "assets/images/img_gallery/151v1.jpg",
     "images": [
-      "assets/images/img_gallery/151v1.webp",
-      "assets/images/img_gallery/151v2.webp"
+      "assets/images/img_gallery/151v1.jpg",
+      "assets/images/img_gallery/151v2.jpg"
     ],
     "projectValue": "AED 62,000,000",
     "client": "Mr. Ahmed Abdulla Al Ansari",
@@ -1396,11 +1387,10 @@
     "projectNumber": "P-159",
     "slug": "P-159 PROPOSED (B+G+8+R) COMMERCIAL AND RESIDENTIAL",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/img_gallery/159v1.webp",
+    "image": "assets/images/img_gallery/159v1.jpg",
     "images": [
-      "assets/images/img_gallery/159v1.webp",
-      "assets/images/img_gallery/159v2.webp",
-      "assets/images/img_gallery/159v3.webp"
+      "assets/images/img_gallery/159v1.jpg",
+      "assets/images/img_gallery/159v2.jpg"
     ],
     "projectValue": "AED 49,000,000",
     "client": "H.H Sheikh Ahmed Mohd Sultan Al Dhahiri",
@@ -1429,10 +1419,10 @@
     "projectNumber": "P-163",
     "slug": "P-163 PROPOSED G+1 ADC ABDULSALAM AL RAFI DIALYSIS CENTER",
     "title": "Dialysis Center",
-    "image": "assets/images/img_gallery/163v2.webp",
+    "image": "assets/images/img_gallery/163v1.jpg",
     "images": [
-      "assets/images/img_gallery/163v2.webp",
-      "assets/images/img_gallery/163v1.webp"
+      "assets/images/img_gallery/163v1.jpg",
+      "assets/images/img_gallery/163v2.jpg"
     ],
     "projectValue": "AED 32,000,000",
     "client": "M/S Dubai Health Authority & Srg",
@@ -1456,12 +1446,7 @@
     "projectNumber": "P-164",
     "slug": "P-164 PROPOSED (G+4F+R)",
     "title": "Residential Building",
-    "image": "assets/images/img_gallery/164v2.webp",
-    "images": [
-      "assets/images/img_gallery/164v2.webp",
-      "assets/images/img_gallery/164v3.webp",
-      "assets/images/img_gallery/164v1.webp"
-    ],
+    "image": "assets/images/img_gallery/164.jpg",
     "projectValue": "AED 34,200,000",
     "client": "Mr. Saleh Mohd Ramadan Al Rafi",
     "consultant": "M/s. Dubai Consultant",
@@ -1484,12 +1469,7 @@
     "projectNumber": "P-165",
     "slug": "P-165 PROPOSED (G+M+7F+Gym)",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/img_gallery/165v1.webp",
-    "images": [
-      "assets/images/img_gallery/165v1.webp",
-      "assets/images/img_gallery/165v2.webp",
-      "assets/images/img_gallery/165v3.webp"
-    ],
+    "image": "assets/images/img_gallery/165v1.jpg",
     "projectValue": "AED 37,300,000",
     "client": "Mr. HUSSAIN ALI FARDAN AL FARDAN",
     "consultant": "M/s. CHAWLA Architectural & Consulting Engineers",
@@ -1591,10 +1571,10 @@
     "projectNumber": "P-173",
     "slug": "P-173 PROPOSED (B+G+P+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/projects/p173.jpg",
+    "image": "assets/images/img_gallery/173v1.jpg",
     "images": [
-      "assets/images/img_gallery/173v1.webp",
-      "assets/images/img_gallery/173v2.webp"
+      "assets/images/img_gallery/173v1.jpg",
+      "assets/images/img_gallery/173v2.jpg"
     ],
     "projectValue": "AED 40,768,000",
     "client": "H.H Sheikh Ahmed Mohd Sultan Al Dhahiri",
@@ -1743,7 +1723,7 @@
     "projectNumber": "P-162",
     "slug": "P-162 SRG ALT TOWER",
     "title": "SRG Alt Tower",
-    "image": "assets/images/img_gallery/162v2.jpg",
+    "image": "assets/images/img_gallery/162.jpg",
     "projectValue": "AED 218,500,000",
     "client": "SRG Holding Limited",
     "consultant": "M/S. ERGA Engineering Consultant",
@@ -1771,12 +1751,7 @@
     "projectNumber": "P-171",
     "slug": "P-171 PROPOSED (B+G+17+R) HOTEL BUILDING",
     "title": "HOTEL Building",
-    "image": "assets/images/img_gallery/171v1.png",
-    "images": [
-      "assets/images/img_gallery/171v1.png",
-      "assets/images/img_gallery/171v3.webp",
-      "assets/images/img_gallery/171v2.webp"
-    ],
+    "image": "assets/images/img_gallery/171.jpg",
     "projectValue": "AED 81,000,000",
     "client": "Mr. Central One Properties LLC",
     "consultant": "M/s RIMAL Engineering Consultant",
@@ -1804,11 +1779,10 @@
     "projectNumber": "P-188",
     "slug": "P-188 PROPOSED (B+G+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/projects/p188.jpg",
+    "image": "assets/images/img_gallery/188v1.jpg",
     "images": [
-      "assets/images/img_gallery/188v1.webp",
-      "assets/images/img_gallery/188v2.webp",
-      "assets/images/img_gallery/188v3.webp"
+      "assets/images/img_gallery/188v1.jpg",
+      "assets/images/img_gallery/188v2.jpg"
     ],
     "projectValue": "AED 33,100,000",
     "client": "Mr. Ali Ahmed Mohammed Abdul Rahman",
@@ -1837,11 +1811,10 @@
     "projectNumber": "P-189",
     "slug": "P-189 PROPOSED (B+G+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/img_gallery/189v1.webp",
+    "image": "assets/images/img_gallery/189v1.jpg",
     "images": [
-      "assets/images/img_gallery/189v1.webp",
-      "assets/images/img_gallery/189v2.webp",
-      "assets/images/img_gallery/189v3.webp"
+      "assets/images/img_gallery/189v1.jpg",
+      "assets/images/img_gallery/189v2.jpg"
     ],
     "projectValue": "AED 35,100,000",
     "client": "Mr. Ali Ahmed Mohammed Abdul Rahman",
@@ -1927,7 +1900,7 @@
     "slug": "P-195 (G+1) SHOPPING MALL",
     "title": "Shopping Mall",
     "image": "assets/images/img_gallery/195v1.jpg",
-    "images": ["assets/images/img_gallery/195v1.jpg"],
+    "images":["assets/images/img_gallery/195v1.jpg","assets/images/img_gallery/195v2.jpg"],
     "projectValue": "AED 30,500,000",
     "client": "M/s. SRG Holding Limited",
     "consultant": "M/S. Loci Architecture & Design",
@@ -1955,12 +1928,7 @@
     "projectNumber": "P-197",
     "slug": "P-197 PROPOSED (B+G+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/projects/p197.jpg",
-    "images": [
-      "assets/images/img_gallery/197v1.webp",
-      "assets/images/img_gallery/197v2.webp",
-      "assets/images/img_gallery/197v3.webp"
-    ],
+    "image": "assets/images/img_gallery/197.jpg",
     "projectValue": "AED 38,100,000",
     "client": "Mr. Ali Ahmed Mohamad Abdul Rahman",
     "consultant": "M/S. Style Engineering Consultant",
@@ -1988,10 +1956,10 @@
     "projectNumber": "P-198",
     "slug": "P-198 PROPOSED (B+G+8+R) COMMERCIAL RESIDENTIAL BUILDING",
     "title": "Commercial & Residential Building",
-    "image": "assets/images/projects/p198.jpg",
+    "image": "assets/images/img_gallery/198v1.jpg",
     "images": [
-      "assets/images/img_gallery/198v1.webp",
-      "assets/images/img_gallery/198v2.webp"
+      "assets/images/img_gallery/198v1.jpg",
+      "assets/images/img_gallery/198v2.png"
     ],
     "projectValue": "AED 36,100,000",
     "client": "Mr. Ali Ahmed Mohammad Abdul Rahman",

@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  /* background-color: var(--lightGreen-2); */
   overflow-x: hidden;
 }
 
@@ -142,6 +143,8 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+
 
 .floating-mail {
   position: fixed;
